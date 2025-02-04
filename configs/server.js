@@ -1,5 +1,5 @@
 'use strict';
-
+ 
 import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
@@ -7,7 +7,8 @@ import morgan from 'morgan';
 import { dbConnection } from './mongo.js';
 import limiter from '../src/middlewares/validar-cant-peticiones.js';
 import authRoutes from '../src/auth/auth.routes.js'
-
+import userRoutes from '../src/users/user.routs.js'
+ 
 const middlewares = (app) => {
     app.use(express.urlencoded({ extended: false }));
     app.use(cors());
@@ -16,11 +17,12 @@ const middlewares = (app) => {
     app.use(morgan('dev'));
     app.use(limiter);
 }
-
+ 
 const routes = (app) => {
     app.use("/adoptionSystem/v1/auth", authRoutes);
+    app.use("/adoptionSystem/v1/users", userRoutes);
 }
-
+ 
 const conectarDB = async () => {
     try{
         await dbConnection();
@@ -30,11 +32,11 @@ const conectarDB = async () => {
         process.exit(1);
     }
 }
-
+ 
 export const initServer = async () => {
     const app = express();
     const port = process.env.PORT || 3000;
-
+ 
     try {
         middlewares(app);
         conectarDB();
