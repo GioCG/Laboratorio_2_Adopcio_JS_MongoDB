@@ -31,8 +31,7 @@ router.put(
 )
 
 router.delete(
-    "/id",
-    uploadProfilePicture.single('profilePicture'),
+    "/:id",
     [
         check("id", "No es un ID válido").isMongoId(),
         check("id").custom(existeUsuarioById),
