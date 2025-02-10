@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { check } from "express-validator";
-import { getPets, savePet, searchPet, deletePet } from "./pet.controller.js";
+import { getPets, savePet, searchPet, deletePet, updatePet } from "./pet.controller.js";
 import { validarCampos } from "../middlewares/validar-campos.js"
 import { validarJWT } from '../middlewares/validar-jwt.js'
  
@@ -36,5 +36,15 @@ router.delete(
         validarCampos
     ],
     deletePet
+);
+
+router.put(
+    "/:id",
+    [
+        validarJWT,
+        check("id", "No es un ID valido").isMongoId(),
+        validarCampos
+    ],
+    updatePet
 );
 export default router;
