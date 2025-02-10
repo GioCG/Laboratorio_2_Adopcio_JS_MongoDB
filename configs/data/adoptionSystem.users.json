@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "67aa03da779cebb3a0b09ce5"
+  },
+  "name": "donis",
+  "surname": "pep",
+  "username": "wasa",
+  "email": "fdsa@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$CyPUck6LR26ulp/uUeNblQ$3Vnr1k31JuTa4ohgYqpWTHmqAPOA1p5UQN6syS9s270",
+  "profilePicture": null,
+  "phone": "42819131",
+  "role": "USER_ROLE",
+  "estado": false,
+  "createdAt": {
+    "$date": "2025-02-10T13:49:14.223Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T15:40:53.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67aa1a52260c4422a2fac841"
+  },
+  "name": "vcx",
+  "surname": "sa",
+  "username": "blas",
+  "email": "F@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$EzOaxOTiJ9jk163bffLFKA$xnRK2hNNRn5x6pr+41JSiTUbkdfbHVyc8T+0owSR3nw",
+  "profilePicture": null,
+  "phone": "42919131",
+  "role": "ADMIN_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-10T15:25:06.989Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T15:25:06.989Z"
+  }
+}]

@@ -14,9 +14,9 @@ router.post(
         validarCampos
     ],
     savePet
-)
+);
  
-router.get("/", getPets)
+router.get("/", getPets);
 
 router.get(
     "/:id",
@@ -26,7 +26,7 @@ router.get(
         validarCampos
     ],
     searchPet
-)
+);
 
 router.delete(
     "/:id",
@@ -36,5 +36,5 @@ router.delete(
         validarCampos
     ],
     deletePet
-)
+);
 export default router;

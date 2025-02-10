@@ -1,0 +1,38 @@
+[{
+  "_id": {
+    "$oid": "67aa095b3e223113ffd3f04f"
+  },
+  "name": "wasin",
+  "description": "pudino",
+  "age": 2,
+  "type": "DINOSAURIO",
+  "keeper": {
+    "$oid": "67aa03da779cebb3a0b09ce5"
+  },
+  "status": false,
+  "createdAt": {
+    "$date": "2025-02-10T14:12:43.538Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T15:08:36.769Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67aa165bd560fefdc6bf4f07"
+  },
+  "name": "mierdano",
+  "description": "poncho",
+  "age": 2,
+  "type": "PERRO",
+  "keeper": {
+    "$oid": "67aa03da779cebb3a0b09ce5"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-10T15:08:11.964Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T15:08:11.964Z"
+  }
+}]

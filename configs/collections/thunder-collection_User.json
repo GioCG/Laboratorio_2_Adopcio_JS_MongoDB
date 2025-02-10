@@ -1,0 +1,93 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "User",
+    "collectionId": "72538bd8-bb5c-4e90-8d63-ea2731891d4a",
+    "dateExported": "2025-02-10T16:40:57.706Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "12014f66-fcc4-41e5-92e8-345ec109a3ac",
+            "colId": "72538bd8-bb5c-4e90-8d63-ea2731891d4a",
+            "containerId": "",
+            "name": "request",
+            "url": "http://localhost:3000/adoptionSystem/v1/auth/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-02-10T16:33:53.791Z",
+            "modified": "2025-02-10T16:37:41.491Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"vcx\",\n  \"surname\": \"sa\",\n  \"username\": \"blas\",\n  \"email\": \"F@gmail.com\",\n  \"password\":\"QWASfdsfsd\",\n  \"phone\": \"42919131\",\n  \"role\":\"ADMIN_ROLE\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "04bad2cb-bc6c-4358-b26c-347f749282b3",
+            "colId": "72538bd8-bb5c-4e90-8d63-ea2731891d4a",
+            "containerId": "",
+            "name": "login",
+            "url": "http://localhost:3000/adoptionSystem/v1/auth/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2025-02-10T16:34:03.031Z",
+            "modified": "2025-02-10T16:35:56.411Z",
+            "headers": []
+        },
+        {
+            "_id": "314ce8bd-7099-44c1-b731-72f78edeee0e",
+            "colId": "72538bd8-bb5c-4e90-8d63-ea2731891d4a",
+            "containerId": "",
+            "name": "eliminar",
+            "url": "http://localhost:3000/adoptionSystem/v1/users/67aa03da779cebb3a0b09ce5",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2025-02-10T16:39:18.370Z",
+            "modified": "2025-02-10T16:39:22.502Z",
+            "headers": []
+        },
+        {
+            "_id": "bc3f1186-a4da-4dd4-9d12-0e71ff32d464",
+            "colId": "72538bd8-bb5c-4e90-8d63-ea2731891d4a",
+            "containerId": "",
+            "name": "list",
+            "url": "http://localhost:3000/adoptionSystem/v1/users/",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2025-02-10T16:40:01.609Z",
+            "modified": "2025-02-10T16:40:04.180Z",
+            "headers": []
+        },
+        {
+            "_id": "0ac42a30-518a-41aa-963f-6aeef9dae02a",
+            "colId": "72538bd8-bb5c-4e90-8d63-ea2731891d4a",
+            "containerId": "",
+            "name": "buscar",
+            "url": "http://localhost:3000/adoptionSystem/v1/users/67aa1a52260c4422a2fac841",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2025-02-10T16:40:12.185Z",
+            "modified": "2025-02-10T16:40:21.435Z",
+            "headers": []
+        },
+        {
+            "_id": "390c6698-b56c-4b3b-bb6c-872b36d05110",
+            "colId": "72538bd8-bb5c-4e90-8d63-ea2731891d4a",
+            "containerId": "",
+            "name": "editar",
+            "url": "http://localhost:3000/adoptionSystem/v1/users/67aa1a52260c4422a2fac841",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2025-02-10T16:40:33.681Z",
+            "modified": "2025-02-10T16:40:48.150Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"vcx\",\n  \"surname\": \"sa\",\n  \"username\": \"blas\",\n  \"email\": \"F@gmail.com\",\n  \"password\":\"QWASfdsfsd\",\n  \"phone\": \"42919131\",\n  \"role\":\"ADMIN_ROLE\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "YVgKoDa7Hdqg8tkmjOI-FeoPu3xArKLfNZBvmB2v38ZQpoBBF-cvQnvmHu_cgTA3FxxupnWQ1MRby3JyIBFjvA"
+}
