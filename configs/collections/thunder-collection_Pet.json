@@ -1,0 +1,123 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Pet",
+    "collectionId": "a315e713-fa41-4840-b27e-7f0ebd1a833a",
+    "dateExported": "2025-02-11T16:11:16.885Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "22f79d3a-860b-4113-8c1b-f9aaada34558",
+            "colId": "a315e713-fa41-4840-b27e-7f0ebd1a833a",
+            "containerId": "",
+            "name": "Adopt Pet",
+            "url": "http://localhost:3000/adoptionSystem/v1/pets/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-02-11T15:25:40.114Z",
+            "modified": "2025-02-11T15:39:33.757Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FiNjU1Nzc2NDQ3NTU5ZjI0MWE4ZWMiLCJpYXQiOjE3MzkyODc4MTQsImV4cCI6MTczOTI5MTQxNH0.5CImOnvxn7nJaUL6vcSQMw5QcPmf3OR4uNlAK4iJxrY"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"wasin\",\n  \"description\": \"pudino\",\n  \"age\":\"2\",\n  \"type\": \"dinosaurio\",\n  \"email\": \"oasodjaosjf@gmail.com\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "ec40521c-25f4-4876-a7c1-a49e22e61e94",
+            "colId": "a315e713-fa41-4840-b27e-7f0ebd1a833a",
+            "containerId": "",
+            "name": "List Pets",
+            "url": "http://localhost:3000/adoptionSystem/v1/pets/",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-02-11T15:25:56.162Z",
+            "modified": "2025-02-11T16:05:57.103Z",
+            "headers": []
+        },
+        {
+            "_id": "4db86c0c-9bf3-4b5f-9313-3badc5f0c0eb",
+            "colId": "a315e713-fa41-4840-b27e-7f0ebd1a833a",
+            "containerId": "",
+            "name": "Search",
+            "url": "http://localhost:3000/adoptionSystem/v1/pets/67ab6f363531bb692223a654",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2025-02-11T15:26:15.390Z",
+            "modified": "2025-02-11T16:07:01.461Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FiNjU1Nzc2NDQ3NTU5ZjI0MWE4ZWMiLCJpYXQiOjE3MzkyODc4MTQsImV4cCI6MTczOTI5MTQxNH0.5CImOnvxn7nJaUL6vcSQMw5QcPmf3OR4uNlAK4iJxrY"
+                }
+            ]
+        },
+        {
+            "_id": "651f0d34-13c5-4508-96c4-462e2dff105e",
+            "colId": "a315e713-fa41-4840-b27e-7f0ebd1a833a",
+            "containerId": "",
+            "name": "Delete",
+            "url": "http://localhost:3000/adoptionSystem/v1/pets/67ab6f363531bb692223a654",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2025-02-11T15:26:26.622Z",
+            "modified": "2025-02-11T16:07:13.971Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FiNjU1Nzc2NDQ3NTU5ZjI0MWE4ZWMiLCJpYXQiOjE3MzkyODc4MTQsImV4cCI6MTczOTI5MTQxNH0.5CImOnvxn7nJaUL6vcSQMw5QcPmf3OR4uNlAK4iJxrY"
+                }
+            ]
+        },
+        {
+            "_id": "ee979266-8ee7-4be9-8180-1c5159f3ad48",
+            "colId": "a315e713-fa41-4840-b27e-7f0ebd1a833a",
+            "containerId": "",
+            "name": "Update",
+            "url": "http://localhost:3000/adoptionSystem/v1/pets/67ab6f363531bb692223a654",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2025-02-11T15:26:31.373Z",
+            "modified": "2025-02-11T16:06:50.569Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FiNjU1Nzc2NDQ3NTU5ZjI0MWE4ZWMiLCJpYXQiOjE3MzkyODc4MTQsImV4cCI6MTczOTI5MTQxNH0.5CImOnvxn7nJaUL6vcSQMw5QcPmf3OR4uNlAK4iJxrY"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"wasin\",\n  \"description\": \"pudino\",\n  \"age\":\"2\",\n  \"type\": \"dinosaurio\",\n  \"email\": \"oasodjaosjf@gmail.com\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "c1b7fcf6-8102-47ec-b9bb-1243e9a41084",
+            "colId": "a315e713-fa41-4840-b27e-7f0ebd1a833a",
+            "containerId": "",
+            "name": "Appointment",
+            "url": "http://localhost:3000/adoptionSystem/v1/appointment/",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2025-02-11T15:27:29.065Z",
+            "modified": "2025-02-11T15:38:13.051Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FiNjU1Nzc2NDQ3NTU5ZjI0MWE4ZWMiLCJpYXQiOjE3MzkyODc4MTQsImV4cCI6MTczOTI5MTQxNH0.5CImOnvxn7nJaUL6vcSQMw5QcPmf3OR4uNlAK4iJxrY"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"wasin\",\n  \"date\":\"2025-02-11\",\n  \"type\": \"castracion\",\n  \"appodescription\":\"hola\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "A9wYTaN4Gr5mAlFS8--BqQp5NCqbiVVJxLu0eUw-a-KoIvELS16rtL49YPQJf6HjidhXKDQ_d85HCigS60QIGQ"
+}

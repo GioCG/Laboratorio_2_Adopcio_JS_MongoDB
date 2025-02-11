@@ -78,20 +78,37 @@ export const updateUserPassword = async (req, res) => {
         const {id} = req.params;
     
         const {password} = req.body;
-
-        if(password){
-            data.password = await hash(password)
+        console.log("hola");
+        
+        if (!password || password.trim() === "") {
+            return res.status(400).json({
+                success: false,
+                message: "La nueva contraseña es obligatoria",
+            });
         }
-        const user = await User.findByIdAndUpdate(id,password,{new:true});
+        if(await verify(user.password, password)){
+            return res.status(400).json({
+                success: false,
+                message: "La nueva contraseña no puede ser igual a la anterior"
+            })
+        }
+        const encriptPassword = await hash(password)
+        const userUpdated = await User.findByIdAndUpdate(id, { password: encriptPassword }, { new: true });
+        if (!userUpdated) {
+            return res.status(400).json({
+                success: false,
+                message: "No se pudo actualizar la contraseña",
+            });
+        }
         return res.status(200).json({
             success:true,
-            msg:'Usuario Actualizado',
+            msg:'Contraseña Actualizada',
             user
         })
     } catch (error) {
         res.status(500).json({
             success: false,
-            msg: 'Error al actualizar usuario',
+            msg: 'Error al actualizar la contraseña',
             error
         })
     }

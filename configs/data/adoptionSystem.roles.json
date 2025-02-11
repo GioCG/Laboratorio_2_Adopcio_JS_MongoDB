@@ -1,12 +1,12 @@
 [{
   "_id": {
-    "$oid": "67aa0327f690f831c8041e66"
+    "$oid": "67a24ce95a14f7ef3059d66e"
   },
-  "role": "USER_ROLE"
+  "role": "ADMIN_ROLE"
 },
 {
   "_id": {
-    "$oid": "67aa034af690f831c8041e68"
+    "$oid": "67a24d035a14f7ef3059d670"
   },
-  "role": "ADMIN_ROLE"
+  "role": "USER_ROLE"
 }]

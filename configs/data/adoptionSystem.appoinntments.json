@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "67ab62d3fcce270eccfc9ad9"
+  },
+  "pet": {
+    "$oid": "67ab5b30518c4e0f4bd031af"
+  },
+  "date": {
+    "$date": "2025-02-11T00:00:00.000Z"
+  },
+  "appodescription": "hola",
+  "type": "CASTRACION",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-11T14:46:43.890Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-11T14:46:43.890Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ab6ee53531bb692223a650"
+  },
+  "pet": {
+    "$oid": "67ab5b30518c4e0f4bd031af"
+  },
+  "date": {
+    "$date": "2025-02-11T00:00:00.000Z"
+  },
+  "appodescription": "hola",
+  "type": "CASTRACION",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-11T15:38:13.032Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-11T15:38:13.032Z"
+  }
+}]

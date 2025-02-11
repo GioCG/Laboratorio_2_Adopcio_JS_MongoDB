@@ -1,38 +1,95 @@
 [{
   "_id": {
-    "$oid": "67aa095b3e223113ffd3f04f"
+    "$oid": "67a3e0656ca7a7e365199adc"
+  },
+  "name": "Max",
+  "description": "salchiccha gordi bachicha",
+  "age": 12,
+  "type": "GORDO BACHICHA TOMA SOLCITO ALA ORIILA DEL MAR",
+  "keeper": {
+    "$oid": "67a3de746ca7a7e365199ad3"
+  },
+  "status": false,
+  "createdAt": {
+    "$date": "2025-02-05T22:04:21.330Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-05T22:15:51.355Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a3e365d824d44c17777bdd"
+  },
+  "name": "Tejeda",
+  "description": "gordo",
+  "age": 12,
+  "type": "GORDO BACHICHA TOMA SOLCITO ALA ORIILA DEL MAR",
+  "keeper": {
+    "$oid": "67a3de746ca7a7e365199ad3"
+  },
+  "status": false,
+  "createdAt": {
+    "$date": "2025-02-05T22:17:09.323Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-05T22:41:10.568Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a3e382d824d44c17777be1"
+  },
+  "name": "santi",
+  "description": "pug",
+  "age": 12,
+  "type": "GORDO BACHICHA TOMA SOLCITO ALA ORIILA DEL MAR",
+  "keeper": {
+    "$oid": "67a3de746ca7a7e365199ad3"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-05T22:17:38.760Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-05T22:17:38.760Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ab5b30518c4e0f4bd031af"
   },
   "name": "wasin",
   "description": "pudino",
   "age": 2,
   "type": "DINOSAURIO",
   "keeper": {
-    "$oid": "67aa03da779cebb3a0b09ce5"
+    "$oid": "67a24d35d017208807c3346f"
   },
-  "status": false,
+  "status": true,
   "createdAt": {
-    "$date": "2025-02-10T14:12:43.538Z"
+    "$date": "2025-02-11T14:14:08.040Z"
   },
   "updatedAt": {
-    "$date": "2025-02-10T15:08:36.769Z"
+    "$date": "2025-02-11T14:14:08.040Z"
   }
 },
 {
   "_id": {
-    "$oid": "67aa165bd560fefdc6bf4f07"
+    "$oid": "67ab6f363531bb692223a654"
   },
-  "name": "mierdano",
-  "description": "poncho",
+  "name": "wasin",
+  "description": "pudino",
   "age": 2,
-  "type": "PERRO",
+  "type": "DINOSAURIO",
   "keeper": {
-    "$oid": "67aa03da779cebb3a0b09ce5"
+    "$oid": "67a24d35d017208807c3346f"
   },
-  "status": true,
+  "status": false,
   "createdAt": {
-    "$date": "2025-02-10T15:08:11.964Z"
+    "$date": "2025-02-11T15:39:34.785Z"
   },
   "updatedAt": {
-    "$date": "2025-02-10T15:08:11.964Z"
+    "$date": "2025-02-11T16:07:13.953Z"
   }
 }]
